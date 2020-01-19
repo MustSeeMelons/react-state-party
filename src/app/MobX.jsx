@@ -1,11 +1,11 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
 
 function MobXApp() {
     return (
         <div className="App">
             <header className="App-header">
-                <div>This is MobX</div>
+                <div>This is the MobX barn</div>
             </header>
         </div>
     );

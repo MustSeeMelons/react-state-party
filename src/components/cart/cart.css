@@ -1,0 +1,11 @@
+.cart p {
+    margin: 0;
+}
+
+.cart-title {
+    font-weight: bold;
+}
+
+.cart-total {
+    font-style: italic;
+}
