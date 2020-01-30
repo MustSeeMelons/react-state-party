@@ -11,9 +11,9 @@ function ReduxApp() {
             <div className="App">
                 <header className="App-header">
                     <div>This is the Redux barn</div>
-                    <ReduxList />
-                    <ReduxCart />
                 </header>
+                <ReduxList />
+                <ReduxCart />
             </div>
         </Provider>
     );

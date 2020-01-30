@@ -63,12 +63,15 @@
         "prop-types": "15.7.2",
         "redux": "4.0.5",
         "react-redux": "7.1.3",
-        "redux-devtools-extension": "2.13.8"
+        "redux-devtools-extension": "2.13.8",
+        "mobx": "5.15.2",
+        "mobx-react": "6.1.5"
     },
     "scripts": {
-        "start": "echo \"Please use 'start-redux' or 'start-mobx'\" && exit 1",
+        "start": "echo \"Please use 'start-redux', 'start-mobx' or 'start-local'\" && exit 1",
         "start-redux": "node scripts/start.js redux",
         "start-mobx": "node scripts/start.js mobx",
+        "start-local": "node scripts/start.js local",
         "build": "node scripts/build.js",
         "test": "node scripts/test.js"
     },
@@ -136,8 +139,19 @@
         ]
     },
     "babel": {
+        "plugins": [
+            [
+                "@babel/plugin-proposal-decorators",
+                {
+                    "legacy": true
+                }
+            ]
+        ],
         "presets": [
             "react-app"
         ]
+    },
+    "devDependencies": {
+        "@babel/plugin-proposal-decorators": "^7.8.3"
     }
 }
