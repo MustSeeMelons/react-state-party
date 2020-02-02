@@ -38,7 +38,8 @@ Item.propTypes = {
     item: PropTypes.object,
     onAdd: PropTypes.func,
     onRemove: PropTypes.func,
-    inCart: PropTypes.bool
+    inCart: PropTypes.bool,
+    amounts: PropTypes.object
 };
 
 export { Item };

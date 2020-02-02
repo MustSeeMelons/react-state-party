@@ -13,6 +13,7 @@ const Cart = props => {
     ) : (
         <p className="cart-title">Your cart is empty.</p>
     );
+
     return (
         <div className="cart">
             {title}

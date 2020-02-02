@@ -68,10 +68,10 @@
         "mobx-react": "6.1.5"
     },
     "scripts": {
-        "start": "echo \"Please use 'start-redux', 'start-mobx' or 'start-local'\" && exit 1",
+        "start": "echo \"Please use 'start-redux', 'start-mobx' or 'start-simple'\" && exit 1",
         "start-redux": "node scripts/start.js redux",
         "start-mobx": "node scripts/start.js mobx",
-        "start-local": "node scripts/start.js local",
+        "start-simple": "node scripts/start.js simple",
         "build": "node scripts/build.js",
         "test": "node scripts/test.js"
     },
