@@ -13,7 +13,11 @@ const SimpleCart = props => {
         }, 0) || 0;
 
     return (
-        <Cart items={context.cart} total={total} onRemove={props.onRemove} />
+        <Cart
+            items={context.cart}
+            total={total}
+            onRemove={context.removeFromCart}
+        />
     );
 };
 

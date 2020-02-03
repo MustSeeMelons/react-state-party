@@ -50,7 +50,7 @@ function SimpleStateApp() {
                     <div>This is the Simple barn</div>
                 </header>
                 <SimpleItemList />
-                <SimpleCart onRemove={removeFromCart} />
+                <SimpleCart />
             </div>
         </GlobalContext.Provider>
     );
